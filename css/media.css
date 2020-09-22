@@ -1,0 +1,18 @@
+@media screen and (min-width: 1600px) and (max-width: 1919px) {
+  .main__menu {
+    max-width: 19%; }
+  .main__photo {
+    max-width: 81%; } }
+
+@media screen and (min-width: 1439px) and (max-width: 1599px) {
+  .main__menu {
+    max-width: 20%; }
+  .main__photo {
+    max-width: 80%; } }
+
+@media screen and (min-width: 1360px) and (max-width: 1438px) {
+  .main__menu {
+    max-width: 21%;
+    padding-left: 20px; }
+  .main__photo {
+    max-width: 79%; } }
