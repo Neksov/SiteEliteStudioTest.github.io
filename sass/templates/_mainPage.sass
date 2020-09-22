@@ -2,25 +2,17 @@
   display: flex
   flex-direction: row
   &__menu
-    background: url(../img/backgroundMenu.png) no-repeat
-    // height: 1073px
+    background: url(../img/backgroundMenu.png) no-repeat center/cover
     height: 100vh
     max-width: 16%
     padding-top: 39px
-    padding-left: 33px
-    &-text
-      font-size: 16px
-      font-family: "OpenSans"
-      color: rgb(170, 169, 169)
-      line-height: 1.25
-      text-align: left
-      margin-top: 46px
-      margin-left: 4px
   &__photo
     height: 100vh
     max-width: 84%
+
 .logo
   position: relative
+  padding-left: 33px
   &__name
     font-size: 45px
     font-family: "Georgia"
@@ -47,10 +39,65 @@
     position: absolute
     background-color: #c57c40
     opacity: 0.412
-    left: 13px
+    left: 45px
     top: 66px
     width: 81px
     height: 2px
+.menu
+  &__text
+    padding-left: 33px
+    font-size: 16px
+    font-family: "OpenSans"
+    color: rgb(170, 169, 169)
+    line-height: 1.25
+    text-align: left
+    margin-top: 46px
+    margin-left: 4px
+  &__nav
+    margin-top: 154px
+.nav
+  &-item
+    font-size: 16px
+    color: rgb(247, 247, 247)
+    text-transform: uppercase
+    line-height: 3.875
+    border-bottom: 1px solid rgb(104, 100, 100)
+    width: 100%
+    list-style: none
+    padding-left: 38px
+    letter-spacing: 0.4px
+  &-item2
+    font-size: 16px
+    color: rgb(247, 247, 247)
+    list-style: none
+    padding-left: 38px
+    letter-spacing: 0.4px
+    line-height: 33px
+.nav2
+  margin-top: 86px
+.contacts
+  padding-left: 38px
+  padding-top: 47px
+  display: flex
+  flex-direction: column
+  &__phone
+    font-size: 20px
+    font-family: "OpenSans"
+    color: rgb(254, 254, 254)
+    letter-spacing: 0.7px
+  &__btn
+    border-bottom: 1px dashed rgb(197, 124, 64)
+    font-size: 16px
+    font-family: "OpenSans"
+    color: rgb(197, 124, 64)
+    box-sizing: border-box
+    cursor: pointer
+    margin-top: 8px
+    &:hover
+      box-shadow: none
+    &:active, &:focus 
+      outline: none
+
 .page
   height: 100vh
   display: flex
@@ -72,6 +119,7 @@
     background-position-y: bottom
   &__btn
     margin-top: 10px
+    margin-left: 17px
     z-index: 1
     &:hover
       opacity: 0.8
@@ -91,7 +139,7 @@
   position: relative
   z-index: 1
   &__title
-    font-size: 53px
+    font-size: 55px
     letter-spacing: 3px
     z-index: 2
   &__text
@@ -111,8 +159,8 @@
 .owl-theme .owl-nav.disabled+.owl-dots 
   margin-top: 10px
   position: absolute
-  bottom: 50px
-  left: 82px
+  bottom: 36px
+  left: 73px
 .owl-theme .owl-dots .owl-dot span 
   background: #ffffff !important
   transition: all 0.4s ease-in-out
@@ -125,4 +173,3 @@
     box-shadow: none
   &:active, &:focus 
     outline: none
-
