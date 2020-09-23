@@ -6,6 +6,7 @@
     height: 100vh
     max-width: 16%
     padding-top: 39px
+    padding-bottom: 30px
   &__photo
     height: 100vh
     max-width: 84%
@@ -52,34 +53,43 @@
     line-height: 1.25
     text-align: left
     margin-top: 46px
-    margin-left: 4px
   &__nav
     margin-top: 154px
 .nav
+  &__news
+    background: url(../img/news.png) no-repeat center center
+    background-position-x: right
+    color: rgb(247, 247, 247)
+    text-align: end
+    padding-right: 10px
   &-item
+    display: flex
+    align-items: center
+    justify-content: space-between
     font-size: 16px
     color: rgb(247, 247, 247)
     text-transform: uppercase
     line-height: 3.875
     border-bottom: 1px solid rgb(104, 100, 100)
-    width: 100%
     list-style: none
     padding-left: 38px
     letter-spacing: 0.4px
-  &-item2
+    position: relative
+  &-service
     font-size: 16px
     color: rgb(247, 247, 247)
     list-style: none
     padding-left: 38px
     letter-spacing: 0.4px
     line-height: 33px
-.nav2
+.service
   margin-top: 86px
 .contacts
   padding-left: 38px
   padding-top: 47px
   display: flex
   flex-direction: column
+  align-items: flex-start
   &__phone
     font-size: 20px
     font-family: "OpenSans"
