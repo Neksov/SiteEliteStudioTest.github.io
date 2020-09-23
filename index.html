@@ -6,11 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
   <link rel="stylesheet" href="css/mmenu.css" />
   <link rel="stylesheet" href="css/hamburgers.css" />
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/animate.min.css" media="all" />
   <link rel="stylesheet" href="css/owl.carousel.min.css" />
   <link rel="stylesheet" href="css/owl.theme.default.min.css" />
   <title>Сияние Декор Центр</title>
@@ -19,7 +17,7 @@
 <body>
   <div id="page">
     <div class="header-mmenu">
-      <a href="#menu" class="hamburger hamburger--spin js-hamburger">
+      <a href="#my-menu" class="hamburger hamburger--spin js-hamburger">
         <span class="hamburger-box">
           <span class="hamburger-inner"></span>
         </span>
@@ -46,9 +44,9 @@
                 Интернет-магазин отделочных
                 материалов и дизайна.
               </h3>
-              <nav class="nav menu__nav">
+              <nav class="menu__nav" id="my-menu">
                 <ul>
-                  <li class="nav-catalog"><a href="#">Каталог товаров</a></li>
+                  <li class="nav-catalog active"><a href="#">Каталог товаров</a></li>
                   <li class="nav-catalog nav__news"><a href="#">Новости и акции</a>
                     <span class="news__count">1</span>
                   </li>
@@ -57,9 +55,7 @@
                   <li class="nav-catalog"><a href="#">Блог</a></li>
                   <li class="nav-catalog"><a href="#">Контакты</a></li>
                 </ul>
-              </nav>
-              <nav class="nav service">
-                <ul>
+                <ul class="service">
                   <li class="nav-service"><a href="#">О компании</a></li>
                   <li class="nav-service"><a href="#">Отзывы о нас</a></li>
                   <li class="nav-service"><a href="#">Доставка и оплата</a></li>
@@ -130,15 +126,13 @@
         </div>
       </section>
     </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="js/mmenu.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/mmenu.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/jquery.validate.min.js"></script>
-  <script src="js/jquery.mask.min.js"></script>
-  <script src="js/wow.min.js"></script>
 </body>
 
 </html>
