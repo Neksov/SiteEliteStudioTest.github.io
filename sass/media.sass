@@ -61,7 +61,7 @@
       max-width: 250px
       font-size: 14px
       margin-top: 30px
-  .nav-item 
+  .nav-catalog 
     font-size: 14px
     line-height: 3
   .nav-service
@@ -70,7 +70,7 @@
   .service 
     margin-top: 30px
   .contacts
-    padding-top: 25px
+    padding-top: 0px
     &__phone
       font-size: 15px
   .logo
@@ -110,7 +110,7 @@
       max-width: 250px
       font-size: 14px
       margin-top: 30px
-  .nav-item 
+  .nav-catalog 
     font-size: 14px
     line-height: 3
   .nav-service
@@ -159,7 +159,7 @@
       max-width: 250px
       font-size: 14px
       margin-top: 30px
-  .nav-item 
+  .nav-catalog
     font-size: 14px
     line-height: 3
   .nav-service
@@ -209,7 +209,7 @@
       font-size: 12px
       margin-top: 30px
       padding-left: 20px
-  .nav-item 
+  .nav-catalog 
     font-size: 14px
     line-height: 3
     padding-left: 20px
@@ -263,7 +263,7 @@
       font-size: 12px
       margin-top: 30px
       padding-left: 20px
-  .nav-item 
+  .nav-catalog
     font-size: 14px
     line-height: 3
     padding-left: 20px
@@ -314,18 +314,9 @@
         font-size: 12px
     &__photo
       max-width: 100%
-  .logo
-    &__name 
-      font-size: 32px
-    &__center
-      font-size: 12px
-      right: 45px
-    &::before 
-      top: 50px
-      width: 50px
   .page
-    padding-bottom: 60px
-    padding-left: 40px
+    padding-bottom: 41px
+    padding-left: 10px
     &__one
       background: url(../img/photoTable.png) no-repeat center center/ cover
     &__two
@@ -334,19 +325,101 @@
       background: url(../img/photoTable.png) no-repeat center center/ cover
     &__four
       background: url(../img/photoTable.png) no-repeat center center/ cover
+    &__btn
+      margin-left: 0
   .info
-    width: 540px
-    line-height: 40px
-    height: 105px
+    width: 482px
+    line-height: 33px
+    height: 92px
+    margin-bottom: -5px
     &__title
-      font-size: 30px
+      font-size: 29px
     &__text
       font-size: 20px
     &__backgroundInfo
-      width: 540px !important
-      height: 105px
-      bottom: 80px
-      left: 65px
+      width: 482px !important
+      height: 92px
+      bottom: 73px
+      left: 29px
+  .btn 
+    width: 137px
+    height: 29px
+    font-size: 13px
+    margin-left: 19px
+    margin-bottom: 18px
   .owl-theme .owl-nav.disabled + .owl-dots 
-    bottom: 5px
-    left: 26px
+    bottom: 17px
+    left: 10px
+  .owl-theme .owl-dots .owl-dot span 
+    width: 6px !important
+    height: 6px !important
+    margin: 5px 3px !important
+  .menu
+    display: none
+    &__nav
+      margin-top: 160px
+  .nav
+    &-catalog
+      font-size: 13px
+      font-family: "NotoSans"
+      text-transform: uppercase
+      color: rgb(106, 83, 70)
+      padding-left: 0
+      border: none
+  .hamburger 
+    padding: 7px 0px
+  .hamburger-box 
+    height: 0px
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after 
+    width: 25px
+    height: 2px
+    border-radius: 0
+    background: #ffffff
+  .header-mmenu 
+    display: flex
+    align-items: center
+    background: url(../img/backgroundTableMenu.png) no-repeat center/cover
+    box-sizing: border-box
+    width: 100%
+    height: 45px
+    padding: 0 12px
+    position: fixed
+    top: 0px
+    z-index: 1000
+    position: relative
+  .header-mmenu-logo
+    padding-left: 50px
+    font-size: 28px
+    font-family: "Georgia"
+    color: rgb(244, 244, 244)
+    text-transform: uppercase
+    position: relative
+    &::before
+      content: ""
+      width: 1px
+      height: 45px
+      background-color: rgb(104, 100, 100)
+      position: absolute
+      left: 36px
+      top: -7px
+  .header-mmenu-phone
+    position: absolute
+    right: 7px
+    top: 1px
+    border-left: 1px solid rgb(104, 100, 100)
+    img
+      padding: 13px
+  .header-mmenu.fixed 
+    position: fixed
+    top: 0
+    left: 0
+  .footer.fixed 
+    position: fixed
+    bottom: 0
+    left: 0
+  .header-mmenu a 
+    display: block
+    width: 40px
+    height: 45px
+    position: absolute
+
