@@ -1206,13 +1206,13 @@ input.invalid {
     padding-bottom: 41px;
     padding-left: 10px; }
     .page__one {
-      background: url(../img/photoTel.png) no-repeat center center/cover; }
+      background: url(../img/photoTable.png) no-repeat center center/cover; }
     .page__two {
-      background: url(../img/photoTel.png) no-repeat center center/cover; }
+      background: url(../img/photoTable.png) no-repeat center center/cover; }
     .page__three {
-      background: url(../img/photoTel.png) no-repeat center center/cover; }
+      background: url(../img/photoTable.png) no-repeat center center/cover; }
     .page__four {
-      background: url(../img/photoTel.png) no-repeat center center/cover; }
+      background: url(../img/photoTable.png) no-repeat center center/cover; }
     .page__btn {
       margin-left: 0; }
   .info {
@@ -1374,14 +1374,6 @@ input.invalid {
   .page {
     padding-bottom: 20px;
     padding-left: 10px; }
-    .page__one {
-      background: url(../img/photoTel.png) no-repeat center center/cover; }
-    .page__two {
-      background: url(../img/photoTel.png) no-repeat center center/cover; }
-    .page__three {
-      background: url(../img/photoTel.png) no-repeat center center/cover; }
-    .page__four {
-      background: url(../img/photoTel.png) no-repeat center center/cover; }
     .page__btn {
       margin-left: 0; }
   .info {
@@ -1486,7 +1478,7 @@ input.invalid {
   .header-mmenu a {
     display: block;
     width: 40px;
-    height: 45px; }
+    height: 37px; }
   .mm-listitem:after {
     left: 0; }
   .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
