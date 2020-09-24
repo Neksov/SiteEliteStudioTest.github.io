@@ -808,7 +808,7 @@
   .submenu::before {
     content: "";
     width: 1px;
-    height: 45px;
+    height: 36px;
     background-color: #686464;
     position: absolute;
     right: 40px;
