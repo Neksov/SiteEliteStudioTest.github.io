@@ -13,53 +13,79 @@
   display: flex
   align-items: center
   justify-content: center
+  padding: 20px
   &--visible
     opacity: 1
     visibility: visible
   &__dialog
     position: relative
-    width: 23.1875rem
-    height: 14.4375rem
+    width: 931px
+    height: 535px
     background: #ffffff
-    box-shadow: 0 0 7px 6px rgba(34, 34, 34, 0.05)
-    padding: 2.5rem 3.1rem 1.928rem
+    &-group
+      display: flex
+      flex-direction: row
   &__form
     display: flex
     flex-direction: column
-  &__input
-    border-radius: 10px
-    border: 1px solid #b1b0b0
-    &-group
-      display: flex
-      flex-direction: column
-      margin-bottom: 0.428rem
-    &::placeholder
-      color: #000000
-      font-size: 16px
-      font-weight: 300
-      line-height: 37.33px
-    &:last-of-type 
-      margin-bottom: 1rem
-      padding-left: 1rem
-    &.invalid
-      border-bottom: 1px solid #000000
   &__btn
     position: absolute
     align-self: flex-end
-    padding: 13px 53px
-    bottom: 0
-    margin-bottom: 20px
-    margin-left: -2.7rem
+    bottom: 39px
+    right: 62px
+    width: 214px
+    background-color: rgb(219, 125, 58)
   &__close
     position: absolute
     right: 0
     top: 0
     width: 28px
     height: 28px
-    background: transparent url(../img/close.svg) no-repeat center
+    background: transparent url(../img/close.png) no-repeat center
     border: none
-    margin: 12px
+    margin: 16px
     cursor: pointer
+.input
+  border: none
+  width: 100%
+  height: 45px
+  padding-left: 10px
+  &-group
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    padding-bottom: 4px
+    margin-top: 26px
+    &::placeholder
+      color: #000000
+      font-size: 16px
+      font-weight: 300
+      line-height: 37.33px
+    &:last-of-type
+      margin-bottom: 1rem
+    &.invalid
+      border: 1px solid rgb(183, 93, 93)
+.form
+  width: 100%
+  padding-left: 57px
+  padding-top: 40px
+  padding-right: 60px
+  background-color: rgb(242, 242, 242)
+  height: 535px
+  &__title
+    font-size: 28px
+    font-family: "NotoSans"
+    color: rgb(74, 74, 74)
+    text-transform: uppercase
+  &__label
+    margin-bottom: 5px
+  &__input
+    &-message
+      height: 105px
+.imagesModal
+  img
+    height: 535px
+
 #modal-user-name-error
   position: absolute
   margin-top: 40px

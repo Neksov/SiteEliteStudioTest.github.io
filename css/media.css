@@ -27,11 +27,11 @@
   .main__photo {
     max-width: 80%; }
   .menu__nav {
-    margin-top: 80px; }
+    margin-top: 50px; }
   .service {
     margin-top: 25px; }
   .info {
-    width: 680px; }
+    max-width: 680px; }
     .info__title {
       font-size: 43px; }
     .info__text {
@@ -118,7 +118,7 @@
   .service {
     margin-top: 30px; }
   .contacts {
-    padding-top: 25px; }
+    padding-top: 0px; }
     .contacts__phone {
       font-size: 15px; }
   .logo {
@@ -133,7 +133,7 @@
   .page {
     padding-bottom: 50px; }
   .info {
-    width: 590px; }
+    max-width: 590px; }
     .info__title {
       font-size: 35px; }
     .info__text {
@@ -184,7 +184,7 @@
   .page {
     padding-bottom: 50px; }
   .info {
-    width: 590px; }
+    max-width: 590px; }
     .info__title {
       font-size: 36px; }
     .info__text {
@@ -237,7 +237,7 @@
   .page {
     padding-bottom: 50px; }
   .info {
-    width: 590px; }
+    max-width: 590px; }
     .info__title {
       font-size: 36px; }
     .info__text {
@@ -290,7 +290,7 @@
   .page {
     padding-bottom: 50px; }
   .info {
-    width: 590px; }
+    max-width: 590px; }
     .info__title {
       font-size: 36px; }
     .info__text {
@@ -332,7 +332,7 @@
     .page__btn {
       margin-left: 0; }
   .info {
-    width: 490px;
+    max-width: 490px;
     line-height: 30px;
     height: 92px;
     margin-bottom: -5px; }
@@ -470,7 +470,10 @@
     display: none;
     background: none; }
   .input-search.is-active {
-    display: block; } }
+    display: block; }
+  .form {
+    padding-left: 30px;
+    padding-right: 30px; } }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .main {
@@ -502,7 +505,7 @@
     .page__btn {
       margin-left: 0; }
   .info {
-    width: 388px;
+    max-width: 388px;
     line-height: 33px;
     height: 76px;
     margin-bottom: -5px; }
@@ -640,7 +643,34 @@
     display: none;
     background: none; }
   .input-search.is-active {
-    display: block; } }
+    display: block; }
+  .modal__close {
+    width: 15px;
+    height: 15px;
+    margin: 4px; }
+  .modal__btn {
+    bottom: 10px;
+    right: 20px; }
+  .form {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    height: 350px; }
+    .form__input {
+      height: 30px; }
+      .form__input-message {
+        height: 60px; }
+    .form__title {
+      font-size: 20px; }
+  label {
+    font-size: 12px; }
+  .input-group {
+    margin-top: 10px; }
+  .imagesModal img {
+    height: 350px; }
+  .modal__dialog {
+    height: 350px;
+    max-width: 600px; } }
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .main {
@@ -672,7 +702,7 @@
     .page__btn {
       margin-left: 0; }
   .info {
-    width: 308px;
+    max-width: 308px;
     line-height: 21px;
     height: 56px;
     margin-bottom: -5px;
@@ -815,4 +845,31 @@
     top: -2px; }
   .news__count {
     display: none;
-    background: none; } }
+    background: none; }
+  .modal__close {
+    width: 10px;
+    height: 10px;
+    margin: 6px; }
+  .modal__btn {
+    bottom: -10px;
+    right: 20px; }
+  .form {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    height: 230px; }
+    .form__input-message {
+      height: 60px; }
+    .form__title {
+      font-size: 18px; }
+  label {
+    font-size: 10px; }
+  .input {
+    height: 20px; }
+    .input-group {
+      margin-top: 10px; }
+  .imagesModal img {
+    height: 230px; }
+  .modal__dialog {
+    height: 230px;
+    min-width: 280px; } }

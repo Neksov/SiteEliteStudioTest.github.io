@@ -31,12 +31,11 @@
       max-width: 80%
   .menu
     &__nav 
-      margin-top: 80px
-
+      margin-top: 50px
   .service 
     margin-top: 25px
   .info
-    width: 680px
+    max-width: 680px
     &__title
       font-size: 43px
     &__text
@@ -125,7 +124,7 @@
   .service 
     margin-top: 30px
   .contacts
-    padding-top: 25px
+    padding-top: 0px
     &__phone
       font-size: 15px
   .logo
@@ -140,7 +139,7 @@
   .page
     padding-bottom: 50px
   .info
-    width: 590px
+    max-width: 590px
     &__title
       font-size: 35px
     &__text
@@ -192,7 +191,7 @@
   .page
     padding-bottom: 50px
   .info
-    width: 590px
+    max-width: 590px
     &__title
       font-size: 36px
     &__text
@@ -246,7 +245,7 @@
   .page
     padding-bottom: 50px
   .info
-    width: 590px
+    max-width: 590px
     &__title
       font-size: 36px
     &__text
@@ -300,7 +299,7 @@
   .page
     padding-bottom: 50px
   .info
-    width: 590px
+    max-width: 590px
     &__title
       font-size: 36px
     &__text
@@ -338,7 +337,7 @@
     &__btn
       margin-left: 0
   .info
-    width: 490px
+    max-width: 490px
     line-height: 30px
     height: 92px
     margin-bottom: -5px
@@ -471,6 +470,9 @@
       background: none
   .input-search.is-active
     display: block
+  .form
+    padding-left: 30px
+    padding-right: 30px
 @media  screen and (min-width : 480px) and (max-width : 767px)
   .main
     flex-direction: column
@@ -498,7 +500,7 @@
     &__btn
       margin-left: 0
   .info
-    width: 388px
+    max-width: 388px
     line-height: 33px
     height: 76px
     margin-bottom: -5px
@@ -631,6 +633,37 @@
       background: none
   .input-search.is-active
     display: block
+  .modal
+    &__close
+      width: 15px
+      height: 15px
+      margin: 4px
+    &__btn
+      bottom: 10px
+      right: 20px
+  .form
+    padding-top: 10px
+    padding-left: 10px
+    padding-right: 20px
+    height: 350px
+    &__input
+      height: 30px
+      &-message
+        height: 60px
+    &__title
+      font-size: 20px
+  label 
+    font-size: 12px
+  .input
+    &-group
+      margin-top: 10px
+
+  .imagesModal
+    img
+      height: 350px
+  .modal__dialog
+    height: 350px
+    max-width: 600px
 @media  screen and (min-width : 320px) and (max-width : 479px)
   .main
     flex-direction: column
@@ -658,7 +691,7 @@
     &__btn
       margin-left: 0
   .info
-    width: 308px
+    max-width: 308px
     line-height: 21px
     height: 56px
     margin-bottom: -5px
@@ -795,3 +828,33 @@
     &__count
       display: none
       background: none
+  .modal
+    &__close
+      width: 10px
+      height: 10px
+      margin: 6px
+    &__btn
+      bottom: -10px
+      right: 20px
+  .form
+    padding-top: 10px
+    padding-left: 10px
+    padding-right: 20px
+    height: 230px
+    &__input
+      &-message
+        height: 60px
+    &__title
+      font-size: 18px
+  label 
+    font-size: 10px
+  .input
+    height: 20px
+    &-group
+      margin-top: 10px
+  .imagesModal
+    img
+      height: 230px
+  .modal__dialog
+    height: 230px
+    min-width: 280px
