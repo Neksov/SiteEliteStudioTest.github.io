@@ -67,7 +67,7 @@
               </nav>
               <div class="contacts menu__contacts">
                 <a href="tel:+74822648080" class="phone contacts__phone">+7(4822)648-080</a>
-                <a href="#" class="contacts__btn">Заказать звонок</a>
+                <a href="#" class="contacts__btn" data-toggle="modal">Заказать звонок</a>
               </div>
               <!-- /.mobile__menu -->
               <nav id="my-menu">
@@ -188,13 +188,43 @@
         </div>
       </section>
     </main>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script src="js/mmenu.js"></script>
-    <script src="js/main.js"></script>
-
-    <script src="js/owl.carousel.min.js"></script>
   </div>
+  <!-- Модальне окно -->
+  <div class="modal">
+    <div class="modal__dialog">
+      <button class="modal__close"></button>
+      <form action="sendToorder.php" method="POST" class="form toorder__form">
+        <div class="input-group toorder__input-group">
+          <label for="toorder-user-name" class="label form__label toorder__label">ФИО</label>
+          <input type="text" autocomplete="off" name="userName" class="input form__input toorder__input"
+            id="toorder-user-name" placeholder="Иванов Иван Иванович" maxlength="30" />
+        </div>
+        <div class="input-group toorder__input-group">
+          <label for="toorder-user-email" class="label form__label toorder__label">E-MAIL</label>
+          <input type="email" autocomplete="off" name="userEmail" class="input form__input toorder__input"
+            id="toorder-user-email" placeholder="ivanov@gmail.com" maxlength="30" />
+        </div>
+        <div class="input-group toorder__input-group">
+          <label for="toorder-user-phone" class="label form__label toorder__label">ТЕЛЕФОН</label>
+          <input type="tel" autocomplete="off" name="userPhone" class="input form__input toorder__input"
+            id="toorder-user-phone" placeholder="+7 999 888-88-88" />
+        </div>
+        <div class="input-group toorder__input-group">
+          <label for="toorder-user-message" class="label form__label toorder__label">СООБЩЕНИЕ</label>
+          <input type="text" autocomplete="off" name="userMessage" class="input form__input toorder__input"
+            id="toorder-user-message" placeholder="Введите Ваше сообщение" maxlength="50" />
+        </div>
+        <button onclick="ym('62680549', 'reachGoal', 'button'); return true;" class="btn btn--primary toorder__btn">
+          Оставить заявку
+        </button>
+      </form>
+      <!-- /.form modal__form -->
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="js/mmenu.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
 </body>
 
 </html>
