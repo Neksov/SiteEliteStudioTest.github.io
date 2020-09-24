@@ -74,7 +74,10 @@
     list-style: none
     padding-left: 38px
     letter-spacing: 0.4px
-    position: relative
+    position: relative  
+    a
+      &:hover
+        color: rgb(197, 124, 64)
   &-service
     font-size: 16px
     color: rgb(247, 247, 247)
@@ -82,6 +85,9 @@
     padding-left: 38px
     letter-spacing: 0.4px
     line-height: 33px
+    a
+      &:hover
+        color: rgb(197, 124, 64)
 .service
   margin-top: 86px
 .contacts
@@ -93,8 +99,11 @@
   &__phone
     font-size: 20px
     font-family: "OpenSans"
-    color: rgb(254, 254, 254)
+    color: rgb(247, 247, 247)
     letter-spacing: 0.7px
+    transition: all 0.4s ease-in-out
+    &:hover
+      color: rgb(197, 124, 64)
   &__btn
     border-bottom: 1px dashed rgb(197, 124, 64)
     font-size: 16px
@@ -105,6 +114,8 @@
     margin-top: 8px
     &:hover
       box-shadow: none
+      color: rgb(247, 247, 247)
+      border-bottom: 1px dashed rgb(247, 247, 247)
     &:active, &:focus 
       outline: none
 .page
@@ -186,5 +197,21 @@
     outline: none
 .header-mmenu
   display: none
-
- 
+.input-search
+  display: none
+  width: 18px
+  height: 18px
+  background: url(../img/search-solid.svg) no-repeat center center
+  border: none
+  position: relative
+  &::before
+    content: ""
+    width: 1px
+    height: 45px
+    background-color: rgb(104, 100, 100)
+    position: absolute
+    left: -16px
+    top: -15px
+.search
+  position: absolute
+  right: 252px

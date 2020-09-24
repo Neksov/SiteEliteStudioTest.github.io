@@ -6,14 +6,16 @@ $(document).ready(function () {
   $('#my-menu').mmenu({
     extensions: ['widescreen', ],
     navbar: {
-      title: 'Основное меню сайта '
-    }
+      title: 'Основное меню сайта ',
+    },
   });
 
-  var api = $('#my-menu').data('mmenu');
-  api.bind('opened', function () {
-    $('hamburger').addClass('is-active');
-  }).bind('closed', function () {
-    $('hamburger').removeClass('is-active');
+  var api = $("#my-menu").data("mmenu");
+  api.bind('open:finish', function () {
+    $('.hamburger').addClass('is-active');
+    $('.input-search').addClass('is-active');
+  }).bind('close:finish', function () {
+    $('.hamburger').removeClass('is-active');
+    $('.input-search').removeClass('is-active');
   });
 });
