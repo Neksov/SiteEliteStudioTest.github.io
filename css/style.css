@@ -1453,11 +1453,11 @@ input.invalid {
     .header-mmenu-logo::before {
       content: "";
       width: 1px;
-      height: 37px;
+      height: 45px;
       background-color: #686464;
       position: absolute;
       left: -10px;
-      top: -7px; }
+      top: -11px; }
   .header-mmenu-phone {
     position: absolute;
     right: -3px;
@@ -1466,7 +1466,7 @@ input.invalid {
     .header-mmenu-phone img {
       width: 15px;
       height: 15px;
-      margin: 9px; }
+      margin: 15px; }
   .header-mmenu.fixed {
     position: fixed;
     top: 0;
@@ -1478,7 +1478,7 @@ input.invalid {
   .header-mmenu a {
     display: block;
     width: 40px;
-    height: 37px; }
+    height: 45px; }
   .mm-listitem:after {
     left: 0; }
   .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
@@ -1513,7 +1513,7 @@ input.invalid {
   .submenu::before {
     content: "";
     width: 1px;
-    height: 36px;
+    height: 45px;
     background-color: #686464;
     position: absolute;
     right: 40px;
