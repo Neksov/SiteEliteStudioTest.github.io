@@ -23,6 +23,7 @@ $(document).ready(function () {
   });
 
 
+
   let modal = $(".modal"); //помещаем модальное окно
   modalBtn = $("[data-toggle = modal]"); //
 
@@ -109,8 +110,7 @@ $(document).ready(function () {
         success: function (response) {
           $(form)[0].reset(); // чистит поля после отправки формы
           modal.removeClass("modal--visible");
-          $(".modal").hide(800);
-          $(".modalSend").show("slow");
+          alert("Сообщение отправленно. Наш менеджер свяжется с Вами.")
         },
       });
     },

@@ -670,7 +670,18 @@
     height: 350px; }
   .modal__dialog {
     height: 350px;
-    max-width: 600px; } }
+    max-width: 600px; }
+  #modal-user-email-error {
+    margin-top: 50px;
+    font-size: 10px; }
+  #modal-user-phone-error {
+    margin-top: 50px;
+    font-size: 10px; }
+  #modal-user-message-error {
+    margin-top: 85px;
+    font-size: 10px; }
+  .form__input {
+    font-size: 12px; } }
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .main {
@@ -850,18 +861,26 @@
     width: 10px;
     height: 10px;
     margin: 6px; }
+  .modal__dialog {
+    height: 230px;
+    min-width: 280px; }
   .modal__btn {
     bottom: -10px;
-    right: 20px; }
+    right: 20px;
+    width: 90px;
+    height: 20px;
+    font-size: 10px; }
   .form {
     padding-top: 10px;
     padding-left: 10px;
-    padding-right: 20px;
+    padding-right: 10px;
     height: 230px; }
     .form__input-message {
       height: 60px; }
     .form__title {
-      font-size: 18px; }
+      font-size: 11px; }
+    .form__input {
+      font-size: 10px; }
   label {
     font-size: 10px; }
   .input {
@@ -870,6 +889,12 @@
       margin-top: 10px; }
   .imagesModal img {
     height: 230px; }
-  .modal__dialog {
-    height: 230px;
-    min-width: 280px; } }
+  #modal-user-email-error {
+    margin-top: 40px;
+    font-size: 9px; }
+  #modal-user-phone-error {
+    margin-top: 40px;
+    font-size: 9px; }
+  #modal-user-message-error {
+    margin-top: 40px;
+    font-size: 9px; } }
