@@ -56,6 +56,7 @@
     align-items: flex-start
     padding-bottom: 4px
     margin-top: 26px
+    position: relative
     &::placeholder
       color: #000000
       font-size: 16px
@@ -63,8 +64,6 @@
       line-height: 37.33px
     &:last-of-type
       margin-bottom: 1rem
-    &.invalid
-      border: 1px solid rgb(183, 93, 93)
 .form
   width: 100%
   padding-left: 57px
@@ -85,10 +84,15 @@
 .imagesModal
   img
     height: 535px
-
-#modal-user-name-error
-  position: absolute
-  margin-top: 40px
 #modal-user-phone-error
   position: absolute
-  margin-top: 40px
+  margin-top: 70px
+  color: rgb(183, 93, 93)
+#modal-user-email-error
+  position: absolute
+  margin-top: 70px
+  color: rgb(183, 93, 93)
+#modal-user-message-error
+  position: absolute
+  margin-top: 130px
+  color: rgb(183, 93, 93)

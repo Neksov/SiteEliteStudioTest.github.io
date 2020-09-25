@@ -360,10 +360,8 @@ label {
 input {
   outline: none;
   font-size: 18px;
-  line-height: 35px;
   font-weight: normal;
-  border: none;
-  border-bottom: 1px solid #939497; }
+  border: none; }
 
 a {
   color: #ffffff;
@@ -444,11 +442,11 @@ button:focus,
 
 label.invalid {
   position: absolute;
-  margin-top: 53px;
-  color: #000000; }
+  color: #000000;
+  top: 0; }
 
 input.invalid {
-  border-bottom: 1px solid red; }
+  border: 1px solid #b75d5d; }
 
 .main {
   display: -webkit-box;
@@ -801,7 +799,8 @@ input.invalid {
     -ms-flex-align: start;
     align-items: flex-start;
     padding-bottom: 4px;
-    margin-top: 26px; }
+    margin-top: 26px;
+    position: relative; }
     .input-group::-webkit-input-placeholder {
       color: #000000;
       font-size: 16px;
@@ -829,8 +828,6 @@ input.invalid {
       line-height: 37.33px; }
     .input-group:last-of-type {
       margin-bottom: 1rem; }
-    .input-group.invalid {
-      border: 1px solid #b75d5d; }
 
 .form {
   width: 100%;
@@ -852,13 +849,20 @@ input.invalid {
 .imagesModal img {
   height: 535px; }
 
-#modal-user-name-error {
-  position: absolute;
-  margin-top: 40px; }
-
 #modal-user-phone-error {
   position: absolute;
-  margin-top: 40px; }
+  margin-top: 70px;
+  color: #b75d5d; }
+
+#modal-user-email-error {
+  position: absolute;
+  margin-top: 70px;
+  color: #b75d5d; }
+
+#modal-user-message-error {
+  position: absolute;
+  margin-top: 130px;
+  color: #b75d5d; }
 
 @media screen and (min-width: 1600px) and (max-width: 1919px) {
   .main__menu {

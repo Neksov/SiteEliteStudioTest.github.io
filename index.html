@@ -199,27 +199,27 @@
       <button class="modal__close"></button>
       <div class="modal__dialog-group">
         <div class="imagesModal"><img src="img/imgModal.png" alt="imgModal"></div>
-        <form action="sendToorder.php" method="POST" class="form toorder__form">
+        <form action="sendModal.php" method="POST" class="form modal__form">
           <div class="form__title">
             Обратная связь
           </div>
           <div class="input-group">
-            <label for="toorder-user-email" class="label form__label">E-mail
+            <label for="modal-user-email" class="label form__label">E-mail
               <span style="color: rgb(183, 93, 93);">&#42;</span>
             </label>
-            <input type="email" autocomplete="off" name="userEmail" class="input form__input" id="toorder-user-email"
+            <input type="email" autocomplete="off" name="userEmail" class="input form__input" id="modal-user-email"
               maxlength="30" />
           </div>
           <div class="input-group ">
-            <label for="toorder-user-phone" class="label form__label">Телефон
+            <label for="modal-user-phone" class="label form__label">Телефон
               <span style="color: rgb(183, 93, 93);">&#42;</span>
             </label>
-            <input type="tel" autocomplete="off" name="userPhone" class="input form__input" id="toorder-user-phone" />
+            <input type="tel" autocomplete="off" name="userPhone" class="input form__input" id="modal-user-phone" />
           </div>
           <div class="input-group ">
-            <label for="toorder-user-message" class="label form__label">Сообщение</label>
+            <label for="modal-user-message" class="label form__label">Сообщение</label>
             <input type="text" autocomplete="off" name="userMessage" class="input form__input form__input-message"
-              id="toorder-user-message" maxlength="50" />
+              id="modal-user-message" maxlength="50" />
           </div>
           <button class="btn modal__btn">
             Отправить
@@ -230,10 +230,12 @@
     </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script src="js/main.js"></script>
   <script src="js/mmenu.js"></script>
-  <script src="js/mmenu.debugger.js"></script>
+  <script src="js/jquery.mask.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
+
 </body>
 
 </html>
