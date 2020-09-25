@@ -109,8 +109,8 @@ $(document).ready(function () {
         success: function (response) {
           $(form)[0].reset(); // чистит поля после отправки формы
           modal.removeClass("modal--visible");
-          $(".modal").fadeOut();
-          $(".modalSend").fadeIn();
+          $(".modal").hide(800);
+          $(".modalSend").show("slow");
         },
       });
     },
